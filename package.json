@@ -1,0 +1,55 @@
+{
+  "name": "skye",
+  "version": "v2.0.0",
+  "description": "Um incrível bot pro WhatsApp.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "nodemon --ignore session.data.json",
+    "start": "node ./src/index.js",
+    "lint": "eslint --ext .js --ignore-path .gitignore .",
+    "lintfix": "eslint --ext .js --ignore-path .gitignore --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyeProject/Skye"
+  },
+  "author": "MrRexD",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/SkyeProject/Skye/issues"
+  },
+  "homepage": "https://github.com/SkyeProject/Skye/#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.14.0",
+    "@open-wa/wa-automate": "^4.1.0",
+    "@open-wa/wa-decrypt": "^4.0.1",
+    "@vitalets/google-translate-api": "^7.0.0",
+    "aki-api": "^5.2.1",
+    "canvacord": "^5.2.1",
+    "canvas": "^2.8.0",
+    "canvas-text-wrapper": "^0.10.2",
+    "cron": "^1.8.2",
+    "deepai": "^1.0.17",
+    "g-i-s": "^2.1.6",
+    "glob": "^7.1.7",
+    "google-it": "^1.6.2",
+    "google-tts-api": "^2.0.2",
+    "kitsu": "^10.0.0-alpha.10",
+    "mathjs": "^9.4.1",
+    "moment-timezone": "^0.5.33",
+    "mongoose": "^5.12.12",
+    "node-fetch": "^2.6.1",
+    "sleep-promise": "^9.1.0",
+    "spinnies": "^0.5.1",
+    "string-similarity": "^4.0.4",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "pm2": "^4.5.6"
+  }
+}
